@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { RouterProvider, createHashRouter} from 'react-router-dom'
 import Layout from './component/Layout/Layout'
 import Home from './component/home/Home'
 import Products from './component/products/Products'
