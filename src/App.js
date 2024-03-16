@@ -28,7 +28,7 @@ export default function App() {
 
   let QueryClients = new QueryClient()
 
-  let routes = createBrowserRouter([
+  let routes = createHashRouter([
     {
       path: '',
       element: <Layout />,
